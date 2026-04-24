@@ -1,0 +1,368 @@
+body {
+    background-color: #210e25;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 19px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 50px;
+}
+
+
+h2 {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 30px;
+}
+
+.gruppo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.hashira {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.personaggi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tanjiro {
+  color: rgb(255, 85, 85);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.nezuko {
+  color: rgb(247, 144, 231);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.zenitsu {
+  color: rgb(243, 231, 103);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.inosuke {
+  color: rgb(66, 53, 255);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.kanao {
+  color: rgb(197, 86, 211);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.aoi {
+  color: rgb(112, 102, 255);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.shinobu {
+  color: rgb(141, 48, 218);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.tengen {
+  color: rgb(177, 177, 177);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.kanae {
+  color: rgb(255, 130, 190);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.mitsuri {
+  color: rgb(250, 48, 145);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.kyojuro {
+  color: rgb(255, 92, 27);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.obanai {
+  color: rgb(61, 61, 61);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.muichiro {
+  color: rgb(29, 159, 202);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.gyomei {
+  color: rgb(101, 57, 57);
+  text-align: center;
+  font-size: 20px;
+  font-family: "Chewy", cursive;
+}
+
+.scheda_personaggio {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center;
+    gap: 40px;           
+    padding-top: 50px;    
+}
+
+.foto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid #e63946;
+}
+
+.foto_nezuko {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_nezuko img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid  rgb(247, 144, 231);
+}
+
+.foto_zenitsu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_zenitsu img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid #e4ff35;
+}
+
+.foto_inosuke {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_inosuke img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid #3724e6;
+}
+
+.foto_kanao {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_kanao img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid rgb(175, 43, 193);
+}
+
+.foto_aoi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_aoi img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid rgb(112, 102, 255);
+}
+
+.foto_shinobu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_shinobu img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid rgb(141, 48, 218);
+}
+
+.foto_tengen {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_tengen img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid rgb(177, 177, 177);
+}
+
+.foto_kanae {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_kanae img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid rgb(255, 130, 190);
+}
+
+.foto_mitsuri {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_mitsuri img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid rgb(250, 48, 145);
+}
+
+.foto_kyojuro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_kyojuro img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid  rgb(255, 92, 27);
+}
+
+.foto_obanai {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_obanai img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid  rgb(61, 61, 61);
+}
+
+.foto_muichiro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_muichiro img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid rgb(29, 159, 202);
+}
+
+.foto_gyomei {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;                  
+}
+
+.foto_gyomei img {
+    width: 200px;        
+    height: 200px;
+    object-fit: cover;   
+    border: 2px solid rgb(101, 57, 57);
+}
+
+.info {
+    text-align: left;   
+    max-width: 500px;
+}
+
+.dati {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.dati td {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
